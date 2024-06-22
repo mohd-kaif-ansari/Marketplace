@@ -1,0 +1,208 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #0b3d91; /* Upwork color scheme */
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s;
+}
+
+header nav ul li a:hover {
+    background-color: #0056b3; /* Neon color */
+}
+
+/* Home Page Styles */
+.hero {
+    background: url('hero.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 5rem 1rem;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero p {
+    font-size: 1.25rem;
+    margin: 1rem 0;
+}
+
+.hero .btn {
+    background-color: #0b3d91;
+    color: #fff;
+    padding: 0.75rem 2rem;
+    text-decoration: none;
+    font-size: 1.25rem;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.hero .btn:hover {
+    background-color: #0056b3; /* Neon color */
+}
+
+section {
+    padding: 2rem 1rem;
+}
+
+section h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.freelancer-list,
+.project-list,
+.testimonial-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.freelancer,
+.project,
+.testimonial {
+    background-color: #fff;
+    padding: 1rem;
+    margin: 1rem;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.freelancer img,
+.project img,
+.testimonial img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+section.cta {
+    text-align: center;
+    background-color: #0b3d91;
+    color: #fff;
+    padding: 3rem 1rem;
+}
+
+section.cta .btn {
+    background-color: #fff;
+    color: #0b3d91;
+    padding: 0.75rem 2rem;
+    text-decoration: none;
+    font-size: 1.25rem;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+section.cta .btn:hover {
+    background-color: #0056b3; /* Neon color */
+    color: #fff;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #0b3d91;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* Registration Form Styles */
+.registration-form {
+    width: 300px;
+    margin: 50px auto;
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.registration-form h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.registration-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.registration-form input,
+.registration-form select {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+}
+
+.registration-form button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #0b3d91;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.registration-form button:hover {
+    background-color: #0056b3; /* Neon color */
+}
+
+/* Search Bar Styles */
+.search-bar {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.search-bar input {
+    width: 60%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 0.5rem;
+}
+
+.search-bar button {
+    padding: 0.5rem 1rem;
+    background-color: #0b3d91;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.search-bar button:hover {
+    background-color: #0056b3; /* Neon color */
+}
